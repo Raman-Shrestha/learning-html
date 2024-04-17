@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Forms</title>
+    <style>
+        body{
+            background-color: black ;
+            color: antiquewhite;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>
+        Forms in a HTML
+    </h2>
+    <p>
+        <h3>
+            To proceed to the website u have to fill your personal details.
+        </h3>
+    </p>
+
+    <br/>
+
+    <form action="/15-input-2.html" method="get">
+
+        <div>
+            <label>First name:</label>
+            <input type="text" placeholder="Type your first name" required/>
+        </div>
+
+        <br/>
+
+        <div>
+            <label>Last name:</label>
+            <input type="text" placeholder="Type your last name" required/>
+        </div>
+
+        <br/>
+
+        <div>
+            <label>Birthday Date:</label>
+            <input type="date" placeholder="Type your birth date" required/>
+        </div>
+
+        <br/>
+
+        <label>Birthday week</label>
+        <input type="week" placeholder="Type your bithday week">
+
+        <br/>
+        <br/>
+
+        <div>
+            <label>Mobile Number:</label>
+            <input type="tel" placeholder="" required/>
+        </div>
+
+        <br/>
+
+        <div>
+            <fieldset>
+                <legend>Select your gender</legend>
+                <label><input type="radio" name="gender" />Female</label>
+                <label><input type="radio" name="gender" />Others</label>
+                <label><input type="radio" name="gender" />Male</label>
+            </fieldset>
+        </div>
+
+        <br/>
+
+        <div>
+            <button type="submit">Proceed to the next step</button>
+        </div>
+
+    </form>
+
+</body>
+</html>
