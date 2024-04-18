@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Forms</title>
+    <style>
+        body{
+            background-color: black ;
+            color: antiquewhite;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>
+        To continue: <br/>
+        For Signing up please enter the following requirements.
+    </h2>
+
+        <br/>
+
+    <form action="https://www.youtube.com/" method="get">
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder=" john.smith@example.com" required/>
+        </div>
+
+        <br/>
+
+        <div>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="pass" placeholder="Type your password" maxlength="10" required/>
+        </div>
+
+        <br/>
+
+        <p>
+            <h2>Please select your favourite elements:</h2>
+
+            <br/>
+
+            <h3>Elements:</h3>
+        </p>
+
+        <br/>
+
+        <h4>
+            <div>
+                <label for="elements">Hydrogen:</label>
+                <input type="checkbox" name="Hydrogen">
+            </div>
+
+            <div>
+                <label for="elements">Boron:</label>
+                <input type="checkbox" name="Boron">
+            </div>
+
+            <div>
+                <label for="elements">Aluminium:</label>
+                <input type="checkbox" name="Aluminium">
+            </div>
+
+            <div>
+                <label for="elements">Selenium:</label>
+                <input type="checkbox" name="Selenium">
+            </div>
+
+        </h4>
+
+        <br/>
+
+        <h4>
+            <div>
+                <button type="reset">Reset</button>
+            </div>
+
+            <br/>
+
+            <div>
+                <button type="submit">Sign up</button>
+            </div>
+        </h4>
+
+    </form>
+</body>
+</html>
